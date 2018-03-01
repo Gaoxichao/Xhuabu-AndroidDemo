@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="com.xhuabu.xhuabu_androiddemo.ui.login.activity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FDC12A">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/login"
+            android:textColor="@color/tv_white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_phone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@color/tv_white">
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:drawableLeft="@mipmap/icon_phone"
+            android:drawablePadding="10dp"
+            android:hint="@string/login_input_phone"
+            android:inputType="phone"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/global_black_color"
+            android:textColorHint="@color/button_gray"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        android:background="@color/tv_white">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:drawableLeft="@mipmap/icon_pwd"
+            android:drawablePadding="10dp"
+            android:hint="@string/login_input_pwd"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/global_black_color"
+            android:textColorHint="@color/button_gray"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/layer_list_button_style"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_no_phone"
+            android:textColor="@color/button_gray" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_register_now"
+            android:textColor="#f00" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAD26B</color>
+    <color name="colorPrimaryDark">#FDC12A</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg">#F6F5F5</color>
+
+    <color name="tv_white">#ffffff</color>
+
+    <color name="global_black_color">#333333</color>
+
+    <color name="dialog_cancel">#f0f0f0</color>
+
+    <color name="button_yellow">#F59F35</color>
+    <color name="button_gray">#cccccc</color>
+
+</resources>

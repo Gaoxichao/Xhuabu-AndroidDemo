@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by xiejingwen at -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@mipmap/button_red_background"/>
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="true" >
+                <shape>
+                    <!-- 圆角 -->
+                    <corners
+                        android:radius="2dp"/><!-- 设置圆角半径 -->
+                    <solid android:color="#22000000"/>
+                </shape>
+            </item>
+            <item android:state_enabled="false">
+                <shape>
+                    <!-- 圆角 -->
+                    <corners
+                        android:radius="2dp"/><!-- 设置圆角半径 -->
+                    <solid android:color="@color/button_gray"/>
+                </shape>
+            </item>
+            <item android:state_enabled="true" android:drawable="@mipmap/button_red_background"/>
+        </selector>
+    </item>
+</layer-list>

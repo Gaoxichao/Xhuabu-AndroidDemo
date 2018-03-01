@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Xhuabu-AndroidDemo</string>
+
+
+    <string name="login">登录</string>
+    <string name="login_input_phone">请输入手机号码</string>
+    <string name="login_input_pwd">请输入登录密码</string>
+    <string name="login_no_phone">没有账号？ </string>
+    <string name="login_register_now">马上注册</string>
+
+
+    <string name="register">注册</string>
+    <string name="register_input_phone">请填写手机号码</string>
+    <string name="register_input_pwd">请设置登录密码</string>
+    <string name="register_code">  我有推广码 >></string>
+    <string name="register_input_code">请填写推广码（如有）</string>
+    <string name="register_have_phone">已有账号？ </string>
+    <string name="register_login_now">马上登录</string>
+
+
+    <string name="user">账户</string>
+    <string name="user_kefu">在线客服</string>
+    <string name="user_cash">我的资产</string>
+    <string name="user_stock">我的股票</string>
+
+
+</resources>
