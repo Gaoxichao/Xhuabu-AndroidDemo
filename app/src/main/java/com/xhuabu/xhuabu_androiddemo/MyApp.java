@@ -11,6 +11,7 @@ import com.xhuabu.xhuabu_androiddemo.base.ConfigUtil;
 
 public class MyApp extends Application {
 
+
     public static MyApp mApp;
 
     @Override
